@@ -47,7 +47,6 @@ any issues prior to executing a query on an engine).
 go get gopkg.in/batchsql.v0
 ~~~
 
-
 ### Import:
 
 ~~~go
