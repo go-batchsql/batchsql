@@ -35,9 +35,9 @@ any issues prior to executing a query on an engine).
 
 ## Status
 
-*Alpha*
+*Beta*
 
-[![Build Status](https://travis-ci.org/go-batchsql/batchsql.svg?branch=master)](https://travis-ci.org/go-batchsql/batchsql)  [![Coverage Status](https://coveralls.io/repos/github/go-batchsql/batchsql/badge.svg?branch=master)](https://coveralls.io/github/go-batchsql/batchsql?branch=master)
+[![Build Status](https://travis-ci.org/go-batchsql/batchsql.svg?branch=master)](https://travis-ci.org/go-batchsql/batchsql)  [![Coverage Status](https://coveralls.io/repos/github/go-batchsql/batchsql/badge.svg?branch=master)](https://coveralls.io/github/go-batchsql/batchsql?branch=master) [![GoDoc](https://godoc.org/gopkg.in/batchsql.v0?status.svg)](https://godoc.org/gopkg.in/batchsql.v0)
 
 ## Installation
 
