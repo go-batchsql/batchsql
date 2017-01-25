@@ -1,6 +1,4 @@
-# batchsql
-
-Simple multi-row INSERT support for Go SQL
+# Simple multi-row INSERT support for Go SQL
 
 INSERT statements are optimized by batching the data, that is
 using the multiple rows syntax.
@@ -37,20 +35,20 @@ any issues prior to executing a query on an engine).
 
 *Beta*
 
-[![Build Status](https://travis-ci.org/go-batchsql/batchsql.svg?branch=master)](https://travis-ci.org/go-batchsql/batchsql)  [![Coverage Status](https://coveralls.io/repos/github/go-batchsql/batchsql/badge.svg?branch=master)](https://coveralls.io/github/go-batchsql/batchsql?branch=master) [![GoDoc](https://godoc.org/gopkg.in/batchsql.v0?status.svg)](https://godoc.org/gopkg.in/batchsql.v0)
+[![Build Status](https://travis-ci.org/go-batchsql/batchsql.svg?branch=master)](https://travis-ci.org/go-batchsql/batchsql)  [![Coverage Status](https://coveralls.io/repos/github/go-batchsql/batchsql/badge.svg?branch=master)](https://coveralls.io/github/go-batchsql/batchsql?branch=master) [![GoDoc](https://godoc.org/github.com/go-batchsql/batchsql?status.svg)](https://godoc.org/github.com/go-batchsql/batchsql)
 
 ## Installation
 
 ### Install:
 
-~~~go
-go get gopkg.in/batchsql.v0
+~~~
+go get -u github.com/go-batchsql/batchsql
 ~~~
 
 ### Import:
 
 ~~~go
-import "gopkg.in/batchsql.v0"
+import "github.com/go-batchsql/batchsql"
 ~~~
 
 ## Usage
